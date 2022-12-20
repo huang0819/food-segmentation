@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 
 # test data annotation
-dataset/test/ann
-dataset/test/*.json
+dataset/
 data/
 dataset_process/
