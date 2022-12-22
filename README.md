@@ -20,7 +20,7 @@
 
 ### 標記程式
 - 請使用[labelme](https://github.com/wkentaro/labelme)進行標記
-- 詳細操作可參考moodle上[Food Instance Segmentation.pdf](resources\Food%20Instance%20Segmentaion.pdf) p.7 ~ p.13
+- 詳細操作可參考moodle上[Food Instance Segmentation.pdf](./resources/Food%20Instance%20Segmentaion.pdf) p.7 ~ p.13
 
 ![pdf file](https://i.imgur.com/OcE92z9_d.webp?maxwidth=1520&fidelity=grand)
 
