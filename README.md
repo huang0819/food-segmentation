@@ -1,5 +1,47 @@
 # food-segmentation
 
+## 食物分割
+
+- 偵測食物在影像中的區域，並進行分類
+- 類別共分為4類
+    - staple food (主食)
+    - main course (主菜)
+    - side dish (副菜)
+    - vegetable (蔬菜)
+
+### 資料集位置
+> https://drive.google.com/file/d/18jlv_DHYlUQpFUzBrC1er0B5km8DXneK/view?usp=share_link
+
+### 訓練範例程式
+> https://colab.research.google.com/drive/1RcWhgL5Ag2lLmpqEg7jotZ3r4Y-RhreL?usp=share_link
+
+### 繳交內容
+1. 程式碼
+2. 模型權重檔
+3. [報告](#報告內容)
+4. 測試集在訓練後的模型預測之結果 ([COCO AP](https://cocodataset.org/#detection-eval))
+![](https://i.imgur.com/ipOv9w4.png)
+
+可使用`pycocotools`套件產生測試結果，範例code連結：https://gist.github.com/huang0819/3f6bf5b8d0f0ad5c8954c9d0ce559f02
+
+### 模型訓練
+- 若使用助教提供的訓練範例程式訓練模型(Mask R-CNN)，分數會斟酌扣分
+- 使用其他模型，分數會比較高
+- 在模型訓練時，**請勿使用測試資料集**
+
+### 報告內容
+繳交的報告，需含以下內容：
+1. 介紹使用的模型
+2. 如何訓練模型
+3. 訓練相關的結果
+4. 組員分工情形
+
+### 檔案繳交位置
+- 請將[繳交內容](#繳交內容)中，四個項目壓縮，並將壓縮檔命名為`{組別}.zip`
+- 繳交位置：https://drive.google.com/drive/folders/1EmOdL6adfh9QuG-yFxOBTlv4dE7koKGP?usp=share_link
+
+---
+
 ## 食物標註
 
 ### 資料位置
